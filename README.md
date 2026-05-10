@@ -9,27 +9,31 @@ Responda individualmente. Use suas palavras. Se usar IA depois da primeira tenta
 
 Marque cada tópico como: lembro bem, lembro parcialmente, não lembro, nunca vi ou não tenho certeza.
 
-- alfabeto:
-- cadeia:
-- linguagem:
-- gramática:
-- autômato finito:
-- linguagem regular:
-- linguagem livre de contexto:
-- linguagem sensível ao contexto:
-- linguagem irrestrita:
-- hierarquia de Chomsky:
-- computabilidade:
-- máquina de Turing:
+- alfabeto: lembro bem
+- cadeia: lembro bem
+- linguagem: não lembro
+- gramática: não lembro
+- autômato finito: lembro parcialmente
+- linguagem regular: não lembro
+- linguagem livre de contexto: não lembro
+- linguagem sensível ao contexto: não lembro
+- linguagem irrestrita: não lembro
+- hierarquia de Chomsky: não lembro
+- computabilidade: lembro parcialmente
+- máquina de Turing: lembro parcialmente
 
 ## 2. Definições com exemplo
 
 Explique, com suas palavras e com um exemplo simples, usando o alfabeto `Sigma = {a, b}`.
 
 1. O que é um alfabeto?
+  - Um conjunto de símbolos de uma linguagem
 2. O que é uma cadeia?
+  - Um conjunto de símbolos dentro de um alfabeto
 3. O que é uma linguagem?
+   - Não sei definir exatamente
 4. O que é uma gramática?
+   - Também não sei definir
 
 ## 3. Linguagens
 
@@ -43,12 +47,18 @@ L3 = { a^n b^n c^n | n >= 0 }
 
 Para cada linguagem:
 
-1. escreva três palavras que pertencem à linguagem;
-2. escreva duas palavras que não pertencem;
-3. diga, se souber, em qual classe ela provavelmente se encaixa;
-4. explique o motivo em linguagem simples.
+1. Três palavras que pertencem à linguagem; 
+2. Duas palavras que não pertencem;
+3. Qual classe ela provavelmente se encaixa;
+4. Motivo em linguagem simples.
 
-Não há problema em dizer "não sei". Nesse caso, escreva o que te deixou em dúvida.
+L1: 
+   1: 101, 001, 0001
+   2: 110, 1010
+   3: não sei
+   4: não sei
+
+L2 e L3: não sei o que quer dizer "a^n" e etc.
 
 ## 4. Autômato finito
 
@@ -67,10 +77,10 @@ q1 --1--> q2
 q2 --0--> q1
 q2 --1--> q0
 ```
-
 Responda:
 
 1. Qual linguagem esse autômato parece reconhecer?
+   - Binário
 2. Execute manualmente as cadeias abaixo e diga se aceita ou rejeita:
    - `01`
    - `101`
@@ -100,9 +110,12 @@ Escolha um tópico da lista inicial e escreva:
 
 1. o que você entende dele;
 2. onde você se confunde;
+   - Desde linguagem até hierarquia de chomsky, eu não sei.
 3. que tipo de explicação ajudaria: desenho, exemplo, exercício guiado, analogia, prova passo a passo ou lista curta.
+   - Definição do conceito e exemplo por um desenho
 
-## 7. Uso de IA, se houver
+
+## 7. Uso de IA, se houver (não usei)
 
 Se você usou IA depois da primeira tentativa, registre:
 
